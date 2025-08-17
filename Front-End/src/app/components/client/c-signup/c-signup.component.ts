@@ -11,7 +11,7 @@ import { ElectronicsService } from '../../service/electronics.service';
 })
 export class CSignupComponent implements OnInit {
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    // Component initialization
   }
   constructor(
     private router: Router,
