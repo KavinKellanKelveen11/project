@@ -92,18 +92,17 @@ export class ProductlistComponent implements OnInit {
   }
 
   onPreviousPageClick(pageOffSet: any): void {
-    this.offset -= 1;
+    this.offset = pageOffSet;
     this.getProductList(this.category === 100 || this.category === '100');
   }
 
   onFirstPageClick(pageOffSet: any): void {
-    this.offset = 0;
+    this.offset = pageOffSet;
     this.getProductList(this.category === 100 || this.category === '100');
   }
 
   onLastPageClick(pageOffSet: any): void {
-    const lastPage = Math.ceil(this.totalItem / this.pageSize);
-    this.offset = lastPage;
+    this.offset = pageOffSet;
     this.getProductList(this.category === 100 || this.category === '100');
   }
 }
