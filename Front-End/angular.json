@@ -70,7 +70,9 @@
           "options": {
             "host": "0.0.0.0",
             "disableHostCheck": true,
-            "hmr": false
+            "hmr": false,
+            "liveReload": false,
+            "verbose": false
           },
           "configurations": {
             "production": {
