@@ -28,8 +28,7 @@ export class AppComponent {
               this.isAdminLoggedIn = true;
               this.isLoggedIn = false;
             }, 100);
-          }
-          {
+          } else {
             setTimeout(() => {
               this.isLoggedIn = false;
               this.isAdminLoggedIn = false;
