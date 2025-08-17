@@ -37,6 +37,7 @@ import { CPaymentComponent } from './components/client/c-payment/c-payment.compo
 import { CSignupComponent } from './components/client/c-signup/c-signup.component';
 import { ContactusComponent } from './components/contactus/contactus/contactus.component';
 import { ForgotPasswordComponent } from './components/forgot-password/forgot-password/forgot-password.component';
+import { HomeComponent } from './components/home/home/home.component';
 import { LandingComponent } from './components/landing/landing/landing.component';
 import { PagingComponent } from './components/paging/paging/paging.component';
 // import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
@@ -47,6 +48,7 @@ import { PagingComponent } from './components/paging/paging/paging.component';
     LoginComponent,
     AddproductComponent,
     ProductlistComponent,
+    HomeComponent,
     LandingComponent,
     CHeaderComponent,
     CHomeComponent,
@@ -60,12 +62,6 @@ import { PagingComponent } from './components/paging/paging/paging.component';
     ChangePasswordComponent,
     AboutusComponent,
     ContactusComponent,
-    AppComponent,
-    AboutusComponent,
-    ContactusComponent,
-    ForgotPasswordComponent,
-    ChangePasswordComponent,
-    PagingComponent,
     AHomeComponent,
   ],
   imports: [
