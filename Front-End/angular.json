@@ -67,6 +67,11 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "host": "0.0.0.0",
+            "disableHostCheck": true,
+            "hmr": false
+          },
           "configurations": {
             "production": {
               "browserTarget": "angular-final:build:production"
